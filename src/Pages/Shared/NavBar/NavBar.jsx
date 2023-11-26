@@ -24,7 +24,7 @@ const NavBar = () => {
       <div
         className="header-wrapper"
         style={
-          isScrolled ? { backgroundColor: "black", transition: ".2s" } : {}
+          isScrolled ? { backgroundColor: "#eeb4c7", transition: ".2s" } : {}
         }
       >
         {/* -- MOBILE HEADER -- */}
@@ -141,7 +141,9 @@ const NavBar = () => {
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">
-                  <Link to="gallery" className="text-white navlink-custom">Gallery</Link>
+                  <Link to="gallery" className="text-white navlink-custom">
+                    Gallery
+                  </Link>
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">

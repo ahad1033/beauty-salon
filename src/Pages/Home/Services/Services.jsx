@@ -12,7 +12,10 @@ const Services = () => {
             <div className="col">
               <div className="sbox-2 sb-1 wow fadeInUp">
                 {/* -- Icon -- */}
-                <div className="sbox-ico ico-65">
+                <div
+                  className="sbox-ico ico-65 font "
+                  style={{ color: "#eeb4c7" }}
+                >
                   <span className="flaticon-facial-treatment"></span>
                 </div>
 
@@ -32,7 +35,7 @@ const Services = () => {
             <div className="col">
               <div className="sbox-2 sb-2 wow fadeInUp">
                 {/* -- Icon -- */}
-                <div className="sbox-ico ico-65">
+                <div className="sbox-ico ico-65" style={{ color: "#eeb4c7" }}>
                   <span className="flaticon-wax"></span>
                 </div>
 
@@ -50,9 +53,9 @@ const Services = () => {
 
             {/* -- SERVICES BOX #3 -- */}
             <div className="col">
-              <div className="sbox-2 sb-3 wow fadeInUp">
+              <div className="sbox-2 sb-3 wow fadeInUp" accordion>
                 {/* -- Icon -- */}
-                <div className="sbox-ico ico-65">
+                <div className="sbox-ico ico-65" style={{ color: "#eeb4c7" }}>
                   <span className="flaticon-cosmetics"></span>
                 </div>
 
@@ -72,7 +75,7 @@ const Services = () => {
             <div className="col">
               <div className="sbox-2 sb-4 wow fadeInUp">
                 {/* -- Icon -- */}
-                <div className="sbox-ico ico-65">
+                <div className="sbox-ico ico-65" style={{ color: "#eeb4c7" }}>
                   <span className="flaticon-nail-polish"></span>
                 </div>
 
@@ -95,7 +98,9 @@ const Services = () => {
         <div class="row">
           <div class="col">
             <div class="more-btn">
-              <Link to='/service' class="btn btn--tra-black hover--black">See All Services</Link>
+              <Link to="/service" class="btn btn--tra-black hover--black">
+                See All Services
+              </Link>
             </div>
           </div>
         </div>
