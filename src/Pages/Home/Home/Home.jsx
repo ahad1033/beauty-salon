@@ -9,7 +9,9 @@ import HomeParallax from "../HomeParallax/HomeParallax";
 import ServiceMenu from "../ServiceMenu/ServiceMenu";
 import Gallery from "../Gallery/Gallery";
 import OurLocation from "../OurLocation/OurLocation";
-import TrendingSection from '../../../Pages/Home/TrendingSection/TrendingSection';
+import TrendingSection from "../../../Pages/Home/TrendingSection/TrendingSection";
+import Wizard from "../../../Component/WaitList/Steps/Wizard";
+import WaitList from "../../../Component/WaitList/WaitList";
 
 const Home = () => {
   return (
@@ -18,15 +20,11 @@ const Home = () => {
       {/* <TextContent /> */}
       <AboutSection />
       <Services />
-      {/* <LookNaturalTextSection /> */}
-      {/* <WorkingHours />
-           <HomeParallax />
-           <ServiceMenu />
-          */}
+      <Wizard></Wizard>
+      {/* <WaitList></WaitList> */}
       <TrendingSection />
       <Gallery />
       <OurLocation />
-
     </div>
   );
 };

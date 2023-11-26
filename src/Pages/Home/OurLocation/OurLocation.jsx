@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../../../assets/images/newsletter.jpg';
+import img from '../../../assets/images/Others/newsletter.jpg';
 
 const OurLocation = () => {
   return (

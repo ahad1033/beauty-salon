@@ -233,13 +233,13 @@ section,
   background-size: cover;
 }
 
-/* .bg--01 { background-image: url(../images/bg-01.jpg); } */
-.bg--01 { background-image: url(../images/bg-01.jpg); }
-.bg--02 { background-image: url(../images/bg-02.jpg); }
-.bg--03 { background-image: url(../images/bg-03.jpg); }
-.bg--04 { background-image: url(../images/bg-04.jpg); }
-.bg--05 { background-image: url(../images/bg-05.jpg); }
-.bg--06 { background-image: url(../images/bg-06.jpg); }
+/* .bg--01 { background-image: url(../images/Others/bg-01.jpg); } */
+.bg--01 { background-image: url(../images/Others/bg-01.jpg); }
+.bg--02 { background-image: url(../images/Others/bg-02.jpg); }
+.bg--03 { background-image: url(../images/Others/bg-03.jpg); }
+.bg--04 { background-image: url(../images/Others/bg-04.jpg); }
+.bg--05 { background-image: url(../images/Others/bg-05.jpg); }
+.bg--06 { background-image: url(../images/Others/bg-06.jpg); }
 
 
 
@@ -1987,7 +1987,7 @@ p.tra-link a:hover:after {
 #hero-9 {
   text-align: center;
   position: relative;
-  background-image: url(../images/hero-9.jpg);
+  background-image: url(../images/Others/hero-9.jpg);
   padding-top: 220px;
   padding-bottom: 150px;
 }
@@ -2021,7 +2021,7 @@ p.tra-link a:hover:after {
 
 #hero-10 {
   position: relative;
-  background-image: url(../images/hero-10.jpg);
+  background-image: url(../images/Others/hero-10.jpg);
   padding-top: 200px;
   padding-bottom: 100px;
 }
@@ -2062,7 +2062,7 @@ p.tra-link a:hover:after {
 
 #hero-11 {
   position: relative;
-  background-image: url(../images/hero-11.jpg);
+  background-image: url(../images/Others/hero-11.jpg);
   padding-top: 210px;
   padding-bottom: 120px;
 }
@@ -3772,20 +3772,20 @@ td.text-end {
   ========================================================================== */
 
 .banner-1-wrapper {
-  background-image: url(../images/banner-1.jpg);
+  background-image: url(../images/Others/banner-1.jpg);
   padding: 90px 80px;
 }
 
 .banner-3 {
   /* background-image: url(../images/banner-3.jpg); */
-  background-image: url(../images/banner-1.jpg);
+  background-image: url(../images/Others/banner-1.jpg);
   padding-top: 90px;
   padding-bottom: 90px;
 }
 
 .banner-4 {
   /* background-image: url(../images/banner-4.jpg); */
-  background-image: url(../images/banner-1.jpg);
+  background-image: url(../images/Others/banner-1.jpg);
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -4015,7 +4015,7 @@ td.text-end {
 }
 
 .newsletter-wrapper.bg--img {
-  background: url(../images/newsletter.jpg); 
+  background: url(../images/Others/newsletter.jpg); 
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;   
@@ -5362,35 +5362,35 @@ select:-webkit-autofill:focus {
 }
 
 #about-page.inner-page-hero {
-  background-image: url(../images/about-page.jpg);
+  background-image: url(../images/Others/about-page.jpg);
 }
 
 #booking-page.inner-page-hero {
-  background-image: url(../images/booking-page.jpg);
+  background-image: url(../images/Others/booking-page.jpg);
 }
 
 #faqs-page.inner-page-hero {
-  background-image: url(../images/faqs-page.jpg);
+  background-image: url(../images/Others/faqs-page.jpg);
 }
 
 #gift-page.inner-page-hero {
-  background-image: url(../images/gift-page.jpg);
+  background-image: url(../images/Others/gift-page.jpg);
 }
 
 #pricing-page-1.inner-page-hero {
-  background-image: url(../images/pricing-1-page.jpg);
+  background-image: url(../images/Others/pricing-1-page.jpg);
 }
 
 #pricing-page-2.inner-page-hero {
-  background-image: url(../images/pricing-2-page.jpg);
+  background-image: url(../images/Others/pricing-2-page.jpg);
 }
 
 #reviews-page.inner-page-hero {
-  background-image: url(../images/reviews-page.jpg);
+  background-image: url(../images/Others/reviews-page.jpg);
 }
 
 #team-page.inner-page-hero {
-  background-image: url(../images/team-page.jpg);
+  background-image: url(../images/Others/team-page.jpg);
 }
 
 /*------------------------------------------*/
@@ -5524,7 +5524,7 @@ select:-webkit-autofill:focus {
 }
 
 #modal-2.modal .bg-img {
-  background: url(../images/modal.jpg);
+  background: url(../images/Others/modal.jpg);
   background-position: left center;  
 }
 
@@ -5702,7 +5702,7 @@ select:-webkit-autofill:focus {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  background-image: url(../images/back-to-top.png);
+  background-image: url(../images/Others/back-to-top.png);
   background-repeat: no-repeat;
   background-position: 50% 48%;
   background-color: rgba(10, 10, 10, .25);

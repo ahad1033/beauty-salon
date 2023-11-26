@@ -1,5 +1,5 @@
 import React from 'react';
-import womanOne from '../../../assets/images/woman_01.jpg';
+import womanOne from '../../../assets/images/Others/woman_01.jpg';
 
 const LookNaturalTextSection = () => {
     return (

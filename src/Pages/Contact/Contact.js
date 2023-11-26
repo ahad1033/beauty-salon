@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import HeaderSection from "../../Component/HeaderSection/HeaderSection";
-import img from '../../../src/assets/images/banner-1.jpg';
+// import img from '../../../src/assets/images/banner-1.jpg';
+import img from '../../assets/images/Others/banner-1.jpg';
 
 const Contact = () => {
   return (

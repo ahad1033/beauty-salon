@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import logoBlack from "../../../assets/images/logo-black.png";
-import logoWhite from "../../../assets/images/logo-white.png";
+import logoBlack from "../../../assets/images/Others/logo-black.png";
+import logoWhite from "../../../assets/images/Others/logo-white.png";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {

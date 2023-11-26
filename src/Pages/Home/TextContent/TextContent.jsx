@@ -1,5 +1,5 @@
 import React from 'react';
-import womanTwo from '../../../assets/images/woman_02.jpg';
+import womanTwo from '../../../assets/images/Others/woman_02.jpg';
 
 const TextContent = () => {
     return (
