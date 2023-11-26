@@ -98,7 +98,7 @@ const Services = () => {
         <div class="row">
           <div class="col">
             <div class="more-btn">
-              <Link to="/service" class="btn btn--tra-black hover--black">
+              <Link to="/service" class="btn btn--tra-pink hover--black">
                 See All Services
               </Link>
             </div>

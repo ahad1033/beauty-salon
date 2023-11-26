@@ -17,7 +17,11 @@ const Wizard = () => {
             <div className=""></div>
             <div className="card-body">
               <div>
-                <Stepper className="" activeStep={goSteps}>
+                <Stepper
+                  className=""
+                  activeStep={goSteps}
+                  activeTextColor="#000"
+                >
                   <Step onClick={() => setGoSteps(0)} />
                   <Step onClick={() => setGoSteps(1)} />
                   <Step onClick={() => setGoSteps(2)} />
